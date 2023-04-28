@@ -11,5 +11,6 @@ public interface DepartmentDao {
 	void uptade(Department obj);
 	Department findById(Integer id);
 	List<Department> findAll();
+	void update(Department obj);
 }
 
